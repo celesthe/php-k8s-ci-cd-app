@@ -18,4 +18,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: tu-usuario/php-k8s-app:latest
+        tags: csazo2408/php-k8s-app:latest
