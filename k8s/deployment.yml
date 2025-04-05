@@ -44,3 +44,4 @@ jobs:
 
       - name: Force rollout restart
         run: kubectl rollout restart deployment/php-app
+        
