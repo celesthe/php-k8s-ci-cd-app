@@ -13,7 +13,7 @@ if ($mysqli->connect_error) {
 $result = $mysqli->query("SELECT id, nombre FROM personas");
 
 while ($row = $result->fetch_assoc()) {
-    echo "ID: " . $row["id"] . " - Nombre: PRUEBA RUNNER - " . $row["nombre"] . "<br>";
+    echo "ID: " . $row["id"] . " - Nombre: EJEMPLO CLASE - " . $row["nombre"] . "<br>";
 }
 $mysqli->close();
 ?>
